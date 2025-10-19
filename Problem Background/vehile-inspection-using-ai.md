@@ -96,7 +96,7 @@ Write a quick summary and suggest next steps.”
 
 With this arrangement, every returned car is checked the same way, and you get easy-to-read reports without sitting for hours. Whether you build your own AI pipeline or plug into an existing service, you’ll save time and avoid disputes over damage.
 
-Source:
-[top 10 edge ai hardware]: https://www.jaycon.com/top-10-edge-ai-hardware-for-2025/
+## Source
+[top 10 edge ai hardware](https://www.jaycon.com/top-10-edge-ai-hardware-for-2025/)
 
-[top 10 car damage inspection solutions]: https://inspektlabs.com/blog/top-10-ai-powered-car-damage-inspection-solutions-2/
+[top 10 car damage inspection solutions](https://inspektlabs.com/blog/top-10-ai-powered-car-damage-inspection-solutions-2/)
