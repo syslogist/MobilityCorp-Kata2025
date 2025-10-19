@@ -1,4 +1,9 @@
-# ADR-XXX: API Fault Tolerance/Resiliency
+# ADR-001: API Fault Tolerance/Resiliency
+
+**Status:** Accepted 
+**Date:** 2025-10-19  
+**Deciders:** Team Katalysis
+
 
 ## Context
 System depends on third-party APIs for weather, POI, routing, events—inevitable outages, latency spikes, or changes could disrupt service.
