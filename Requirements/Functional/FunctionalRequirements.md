@@ -51,7 +51,42 @@ This document outlines the core functional requirements for the MobilityCorp pla
 
 ---
 
-## 5. Personalization & Engagement
+## 5. Vehicle Return and Validation (Return Software System)
+
+- The "Return" microservice shall register every vehicle return event with timestamp, parking spot, and user ID.
+- For cars/vans, it shall verify charging status via parking spot IoT sensor integration.
+- The system shall receive and store user-uploaded return photos and IoT-captured images (exterior/interior scans).
+- The Return service shall invoke AI-powered image analysis models as an internal feature/microservice to automatically detect:
+    - Exterior and interior damages (scratches, dents, stains, broken fixtures)
+    - Cleanliness/compliance issues
+- Damage/violation findings shall be logged, trigger notifications for support/maintenance/workflow, and be communicated to both users and staff.
+- Return events shall be updated with plug-in charging validation status.
+- Fines, penalties, and disputes shall be processed automatically, with support agents able to override or review AI findings via dashboard.
+- All decisions and findings from the AI damage detection must be logged and auditable.
+- The return service shall expose API endpoints for other platform modules to query return status, validation outcome, and charge/fault findings.
+- Return data (photos, sensor/AI output) shall be encrypted at rest and in transit.
+
+---
+
+## 6. AI Integration for Return Workflow
+
+- AI models for return validation (image recognition, damage detection) shall be deployed as a secure, scalable sub-service (container or endpoint).
+- AI service shall receive photos/images, analyze, and return structured classification (damage detected, type, severity).
+- The return service orchestrates calls to AI and links output to support/maintenance escalation, user notification, and billing workflows.
+- Feature flags and version control support rapid deployment/rollback of new AI verification logic.
+
+---
+
+## 7. Platform-wide Functional Updates
+
+- Booking, payment, and operational modules shall now consult return service endpoints to ensure completion and validation of every ride.
+- Admin dashboard integrates real-time feed of return findings, unresolved cases, and AI stats.
+- System supports automated and manual review loops for disputing or escalating returns presided over by AI.
+- End-to-end return/validation path now auditable across all business and compliance workflows.
+
+---
+
+## 8. Personalization & Engagement
 
 - The system shall analyze user trip patterns and send personalized booking recommendations.
 - The platform shall learn and adapt based on feedback, usage behavior, and user preferences.
@@ -59,7 +94,7 @@ This document outlines the core functional requirements for the MobilityCorp pla
 
 ---
 
-## 6. Payment & Compliance
+## 9. Payment & Compliance
 
 - The payment gateway shall support secure, seamless transactions and refunds.
 - The system shall comply with PCI DSS, GDPR/CCPA, and local data protection regulations.
@@ -67,7 +102,7 @@ This document outlines the core functional requirements for the MobilityCorp pla
 
 ---
 
-## 7. Feedback, Monitoring & Validation
+## 10. Feedback, Monitoring & Validation
 
 - The system shall triage and escalate urgent vehicle fault or support requests using NLP and AI.
 - All critical business, booking, and payment flows shall be logged and auditable.
@@ -76,7 +111,7 @@ This document outlines the core functional requirements for the MobilityCorp pla
 
 ---
 
-## 8. Security & Reliability
+## 11. Security & Reliability
 
 - All data transmission and storage shall be encrypted.
 - Only authorized staff shall access admin and fleet management tools.
