@@ -37,5 +37,6 @@ Solving these problems will make MobilityCorp a leader in smart urban mobility, 
 - **Customer convenience and loyalty** through reliable availability, personalized recommendations, and seamless app experiences.
 - **Operational efficiency** via data-driven fleet management, predictive maintenance, and optimized staff scheduling.
 - **Business growth and intelligence** with targeted infrastructure expansion, timely usage analytics, and agile technology adoption.
+- **AI-powered IoT inspection** automated, streamlined, and improved reliability and transparency of returns
 
 A robust, flexible architectural approach—leveraging AI, scalable cloud services, microservices, and advanced analytics—is necessary to realize these goals while adapting to uncertainties and market changes.
