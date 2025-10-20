@@ -1,4 +1,8 @@
-# ADR-XXX: Routing API Integration Strategy
+# ADR-008: Routing API Integration Strategy
+
+**Status:** Accepted 
+**Date:** 2025-10-19  
+**Deciders:** Team Katalysis
 
 ## Context
 Users need trip options, directions, travel times, and map data.
@@ -16,5 +20,3 @@ Service returns routes, distances, times, costs, also packages error messages in
 - **Flexibility:** Can change routing provider with minimal disruption.
 - **Drawback:** Needs proper design/testing to ensure interface matches across providers.
 
-## Status
-Accepted

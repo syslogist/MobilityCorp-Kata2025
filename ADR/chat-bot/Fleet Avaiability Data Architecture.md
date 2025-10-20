@@ -1,4 +1,8 @@
-# ADR-XXX: Fleet/Vehicle Availability Data Architecture
+# ADR-003: Fleet/Vehicle Availability Data Architecture
+
+**Status:** Accepted 
+**Date:** 2025-10-19  
+**Deciders:** Team Katalysis
 
 ## Context
 Real-time availability of mobility vehicles (eBikes, eScooters, cars, vans) affects routing, booking, and service reliability.
@@ -16,5 +20,3 @@ Implement event-driven architecture for fleet telemetry:
 - **Scalability/resilience:** Handles growth, fault tolerance, and enables granular analytics.
 - **Drawbacks:** Needs infrastructure/DevOps investment.
 
-## Status
-Accepted

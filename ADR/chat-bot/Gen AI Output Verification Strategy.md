@@ -1,4 +1,8 @@
-# ADR-XXX: GenAI Output Verification Strategy
+# ADR-004: GenAI Output Verification Strategy
+
+**Status:** Accepted 
+**Date:** 2025-10-19  
+**Deciders:** Team Katalysis
 
 ## Context
 LLM/GenAI can produce misleading, biased, or hallucinated outputs, especially for travel safety or payments.
@@ -15,5 +19,3 @@ Implement automated pipeline for output sampling/verification:
 - **Quality Assurance:** Safer, more reliable, especially for high-consequence actions.
 - **Drawbacks:** More ops for review, possible (slight) slowing of some user flows.
 
-## Status
-Accepted

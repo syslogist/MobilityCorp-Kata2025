@@ -1,4 +1,8 @@
-# ADR-XXX: Intent Recognition Approach
+# ADR-005: Intent Recognition Approach
+
+**Status:** Accepted 
+**Date:** 2025-10-19  
+**Deciders:** Team Katalysis
 
 ## Context
 Accurate understanding of user requests is critical (e.g., "I want an eBike to Dallas Museum") for recommending routes, bookings, and contextual actions.
@@ -16,5 +20,3 @@ Feedback from live queries will be used to continually improve intent recognitio
 - **Accuracy:** Well-defined use cases covered by Rasa; fallback to LLM for rare/complex cases.
 - **Trade-off:** Slightly increased infra complexity; need for ongoing retraining/audit.
 
-## Status
-Accepted

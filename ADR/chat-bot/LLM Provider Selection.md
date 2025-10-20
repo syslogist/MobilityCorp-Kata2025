@@ -1,4 +1,8 @@
-# ADR-XXX: LLM Provider Selection
+# ADR-006: LLM Provider Selection
+
+**Status:** Accepted 
+**Date:** 2025-10-19  
+**Deciders:** Team Katalysis
 
 ## Context
 MobilityCorp’s chatbot needs a robust Large Language Model (LLM) for natural dialogue, route planning, and multi-modal user interaction.
@@ -19,5 +23,3 @@ Adopt **OpenAI GPT-4** (via API) as the initial LLM provider for production use,
 - **Pros:** Flexibility, minimal vendor lock-in, future-proofing against cost and compliance risks.
 - **Cons:** More upfront work for abstraction, some possible integration complexity if switching LLMs.
 
-## Status
-Accepted
