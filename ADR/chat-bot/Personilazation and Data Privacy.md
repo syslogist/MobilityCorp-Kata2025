@@ -1,4 +1,8 @@
-# ADR-XXX: Personalization and Data Privacy
+# ADR-007: Personalization and Data Privacy
+
+**Status:** Accepted 
+**Date:** 2025-10-19  
+**Deciders:** Team Katalysis
 
 ## Context
 Chatbot recommendations and info require user history, location patterns, and preferences. Privacy compliance (GDPR/CCPA) is essential.
@@ -14,5 +18,4 @@ No raw PII stored outside authentication services; periodic reviews for complian
 - **Security:** Better privacy, future compatibility for personalization.
 - **Drawbacks:** More complexity for vector search and compliance audits.
 
-## Status
-Accepted
+

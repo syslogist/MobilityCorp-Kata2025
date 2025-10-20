@@ -1,4 +1,8 @@
-# ADR-XXX: Feature Flagging for AI Components
+# ADR-002: Feature Flagging for AI Components
+
+**Status:** Accepted 
+**Date:** 2025-10-19  
+**Deciders:** Team Katalysis
 
 ## Context
 AI and GenAI features may need quick enable/disable due to drift, outages, or new releases.
@@ -13,5 +17,4 @@ Use **feature flagging service** (LaunchDarkly, Unleash, or open-source) for all
 - **Agility:** Can test, rollback, and update user features safely.
 - **Drawbacks:** Needs flag management and regular review.
 
-## Status
-Accepted
+
