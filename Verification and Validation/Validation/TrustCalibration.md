@@ -38,4 +38,4 @@ To ensure safe, effective, and user-friendly operation of MobilityCorp’s AI-po
 
 ---
 
-_This approach leverages a rigorously validated short-form trust scale for frequent, real-world measurement of trust in AI-enabled automation, supporting continuous verification and calibration of trust in MobilityCorp’s technology solutions [Source: McGrath et al., 2025]._
+
