@@ -46,7 +46,7 @@ With MobilityCorp expanding across Europe, offering high-quality multilingual su
 
 ## **Multilingual Chat Workflow (Powered by Core AI Engine)**
 
-![translation-flow](Diagrams/chat-bot/translator_flow.png)
+![translation-flow](../Diagrams/chat-bot/translator_flow.png)
 
 
 ---
