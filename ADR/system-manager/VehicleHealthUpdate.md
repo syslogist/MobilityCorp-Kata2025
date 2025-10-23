@@ -1,8 +1,11 @@
 # ADR-001: Vehicle Health Record (VHR) Update
 
-**Status:** Accepted
-**Date:** 2025-10-20  
-**Deciders:** Team Katalysis  
+**Status:** Accepted 
+
+**Date:** 2025-10-20
+
+**Deciders:** Team Katalysis 
+
 **Related Issue/Story:** <link or ID> (optional)
 
 ## Context and Problem Statement  
