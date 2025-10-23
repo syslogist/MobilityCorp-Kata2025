@@ -1,8 +1,8 @@
 # ADR 006: API Fault Tolerance and Resiliency Strategy
 
 **Status:** Accepted  
-**Date:** 2025-10-23  
-**Deciders:** Team Katalysis, Platform Reliability Team  
+**Date:** 2025-10-19  
+**Deciders:** Team Katalysis
 **Related Issue/Story:** System Reliability Implementation
 
 ## Context and Problem Statement

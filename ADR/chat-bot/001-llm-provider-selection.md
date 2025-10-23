@@ -1,8 +1,8 @@
 # ADR 004: LLM Provider Selection for MobilityCorp Chatbot
 
 **Status:** Accepted  
-**Date:** 2025-10-23  
-**Deciders:** Team Katalysis, AI/ML Architects, Security Team  
+**Date:** 2025-10-19  
+**Deciders:** Team Katalysis 
 **Related Issue/Story:** Chatbot Core AI Implementation
 
 ## Context and Problem Statement

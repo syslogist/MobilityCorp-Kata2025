@@ -1,8 +1,8 @@
 # ADR 005: GenAI Output Verification Strategy
 
 **Status:** Accepted  
-**Date:** 2025-10-23  
-**Deciders:** Team Katalysis, Quality Assurance Team, Security Team  
+**Date:** 2025-10-19  
+**Deciders:** Team Katalysis  
 **Related Issue/Story:** Chatbot Safety and Reliability
 
 ## Context and Problem Statement

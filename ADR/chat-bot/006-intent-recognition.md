@@ -1,8 +1,8 @@
 # ADR 009: Intent Recognition Approach
 
 **Status:** Accepted  
-**Date:** 2025-10-23  
-**Deciders:** Team Katalysis, AI/ML Team, NLP Specialists  
+**Date:** 2025-10-19  
+**Deciders:** Team Katalysis 
 **Related Issue/Story:** Chatbot Natural Language Understanding
 
 ## Context and Problem Statement

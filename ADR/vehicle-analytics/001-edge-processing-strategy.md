@@ -2,7 +2,7 @@
 
 **Status:** Accepted  
 **Date:** 2025-10-23  
-**Deciders:** System Architects, IoT Team Leads, Data Engineers  
+**Deciders:** Team Katalysis  
 **Related Issue/Story:** Vehicle Analytics Implementation
 
 ## Context and Problem Statement

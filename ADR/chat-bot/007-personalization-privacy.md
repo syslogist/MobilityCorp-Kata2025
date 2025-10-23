@@ -1,8 +1,8 @@
 # ADR 010: Personalization and Data Privacy Strategy
 
 **Status:** Accepted  
-**Date:** 2025-10-23  
-**Deciders:** Team Katalysis, Security Team, Data Privacy Officer  
+**Date:** 2025-10-19  
+**Deciders:** Team Katalysis
 **Related Issue/Story:** User Personalization and GDPR Compliance
 
 ## Context and Problem Statement

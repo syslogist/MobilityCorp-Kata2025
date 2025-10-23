@@ -1,8 +1,8 @@
 # ADR 011: Routing API Integration Strategy
 
 **Status:** Accepted  
-**Date:** 2025-10-23  
-**Deciders:** Team Katalysis, Platform Engineers  
+**Date:** 2025-10-19  
+**Deciders:** Team Katalysis 
 **Related Issue/Story:** Routing Service Implementation
 
 ## Context and Problem Statement

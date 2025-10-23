@@ -2,7 +2,7 @@
 
 **Status:** Accepted  
 **Date:** 2025-10-23  
-**Deciders:** Data Architects, Platform Engineers  
+**Deciders:** Team Katalysis 
 **Related Issue/Story:** Vehicle Analytics Implementation
 
 ## Context and Problem Statement
