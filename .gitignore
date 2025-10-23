@@ -1,0 +1,130 @@
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor/IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node.js (for prototype)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.cache/
+dist/
+coverage/
+
+# Project specific
+# Figma assets and prototype
+Diagrams/vehicle-analytics/figma-assets/
+Diagrams/vehicle-analytics/prototype/
+*.log
+.env*
+config.local.yaml
+credentials.json
+
+# Temporary files
+*.tmp
+*.temp
+.cached
+.temp/
+
+# Generated documentation
+docs/_build/
+site/
+
+# Database
+*.sqlite3
+*.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# AI/ML specific
+*.model
+*.weights
+*.h5
+models/
+wandb/
+
+# Generated prototypes and assets
+*.fig
+.figma/
+*.sketch
+*.xd
+*.ai
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Local configuration
+.local/
+config.local.yml
+settings.local.json
+
+# Security and credentials
+*.pem
+*.key
+*.cert
+.credentials/
+.secrets/
+auth.json
+
+# Structurizr
+diagrams/structurizr/*.dsl
+diagrams/structurizr/*.json
+diagrams/structurizr/generated/
+diagrams/structurizr/*.png
+diagrams/structurizr/*.svg
+
