@@ -1,4 +1,4 @@
-# ADR <NUMBER>: <Title>
+# ADR 002: Local ML model training on booking data records
 
 **Status:** Accepted
 
