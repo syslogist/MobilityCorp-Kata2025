@@ -285,45 +285,7 @@ Our strategic AI implementations directly address key business challenges throug
    - Weather data providers
    - Traffic information systems
 
-### Work in Progress Features 🚧
 
-The following AI features are currently under development:
-
-1. **Enhanced Vehicle Analytics UI**
-   - Interactive visualization dashboard
-   - Real-time fleet insights
-   - Customizable analytics views
-   - AI-powered trend analysis
-
-2. **Advanced Return Automation**
-   - Multi-angle image processing
-   - 3D damage detection
-   - AR-guided return assistance
-   - Automated compliance checking
-
-3. **Next-Gen Recommender System**
-   - Cross-vehicle type optimization
-   - Multi-modal journey planning
-   - Social event integration
-   - Weather-aware suggestions
-
-4. **Smart Admin Console**
-   - AI-powered decision support
-   - Automated resource balancing
-   - Predictive maintenance scheduling
-   - Staff optimization algorithms
-
-2. **Security & Compliance**
-   - Authentication services
-   - Authorization framework
-   - Audit logging
-   - Compliance monitoring
-
-3. **DevOps & Monitoring**
-   - CI/CD pipelines
-   - Infrastructure as Code
-   - Performance monitoring
-   - Alert management
 
 ### 1. Fleet Availability & Positioning
 - **AI-Powered Demand Prediction:** Implemented machine learning models to forecast demand patterns
@@ -436,21 +398,6 @@ Our comprehensive V&V strategy includes:
 - Security audits
 - User feedback loops
 
-## Getting Started
-
-1. Clone the repository
-```bash
-git clone https://github.com/syslogist/MobilityCorp-Kata2025.git
-```
-
-2. Review the documentation
-- Start with [Problem Background](./Problem%20Background/ProblemBackground.md)
-- Review [ADRs](./ADR/) for key decisions
-- Check [Requirements](./Requirements/) for detailed specifications
-
-## License
-
-This project is licensed under the terms of the license included in [LICENSE](./LICENSE).
 
 ## Architecture Diagrams
 
@@ -526,7 +473,44 @@ This project is licensed under the terms of the license included in [LICENSE](./
 *Alerting screen for maintenance, battery, and operational issues.*
 
 ![Vehicle Detail](./Diagrams/vehicle-analytics/screens/vehicle-detail.png)
+
 *Detailed per-vehicle telemetry and diagnostics view.*
+
+## Future Development Roadmap 🚧
+
+The following features are planned or currently under development:
+
+1. **Advanced Return Automation**
+   - Multi-angle image processing
+   - 3D damage detection
+   - AR-guided return assistance
+   - Automated compliance checking
+
+2. **Next-Gen Recommender System**
+   - Enhanced route vectorization
+   - Advanced path clustering
+   - Weather-aware suggestions
+   - Improved cold-start handling
+
+3. **Extended Security & Compliance**
+   - Enhanced authentication services
+   - Zero-trust architecture implementation
+   - Advanced audit logging
+   - Regulatory compliance automation
+
+4. **Infrastructure & DevOps**
+   - Expanded CI/CD pipelines
+   - Infrastructure as Code enhancement
+   - Advanced monitoring systems
+   - Automated scaling solutions
+
+5. **AI Model Optimization**
+   - Enhanced collaborative filtering
+   - Advanced BERT model fine-tuning
+   - Improved matrix decomposition
+   - Extended vector database capabilities
+
+
 
 ## References & Further Reading
 
@@ -553,6 +537,10 @@ This project is licensed under the terms of the license included in [LICENSE](./
    - Applied in our chatbot architecture
    - Referenced in Chat Bot ADRs
 
+## License
+
+This project is licensed under the terms of the license included in [LICENSE](./LICENSE).
+
 ## Contributors
 
 This architecture was designed and documented by:
@@ -564,6 +552,6 @@ This architecture was designed and documented by:
 | Amiya Bhattacharya | [LinkedIn](https://www.linkedin.com/in/amiya-bhattacharya/) |
 | Traian Lupan | [LinkedIn](https://www.linkedin.com/in/traianlupan/) |
 
-## Contributing
+----
 
-Please read our contributing guidelines before submitting pull requests.
+
