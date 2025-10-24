@@ -455,41 +455,62 @@ This project is licensed under the terms of the license included in [LICENSE](./
 ## Architecture Diagrams
 
 ### System Context & Container Views
-![Vehicle Analytics System Context](./Diagrams/vehicle-analytics/VehicleAnalytics-Context.png)
+![Vehicle Analytics System Context](./Diagrams/vehicle-analytics/c4-diagrams/VehicleAnalyticsContext.png)
 *System Context diagram showing the high-level interactions between users, systems, and external services*
 
-![Vehicle Analytics Containers](./Diagrams/vehicle-analytics/VehicleAnalytics-Container.png)
+![Vehicle Analytics Containers](./Diagrams/vehicle-analytics/c4-diagrams/VehicleAnalyticsContainers.png)
 *Container diagram detailing the major components and their interactions within the system*
 
 ### Key Flows
 1. **Data Collection & Processing**
-   ![Data Collection Layer](./Diagrams/vehicle-analytics/DataCollection.png)
+   ![Data Collection Layer](./Diagrams/vehicle-analytics/c4-diagrams/DataCollection.png)
    *IoT sensor data collection and edge processing flow*
 
 2. **Real-time Analytics**
-   ![Processing Layer](./Diagrams/vehicle-analytics/Processing.png)
+   ![Processing Layer](./Diagrams/vehicle-analytics/c4-diagrams/Processing.png)
    *Stream processing and analytics pipeline*
 
 3. **Storage & Presentation**
-   ![Storage Layer](./Diagrams/vehicle-analytics/Storage.png)
+   ![Storage Layer](./Diagrams/vehicle-analytics/c4-diagrams/Storage.png)
    *Data storage strategy and presentation layer*
 
 4. **User Interaction**
-   ![Presentation Layer](./Diagrams/vehicle-analytics/Presentation.png)
+   ![Presentation Layer](./Diagrams/vehicle-analytics/c4-diagrams/PresentationContext.png)
    *User interfaces and interaction flows*
 
 ### Specialized Views
-1. **Battery Management**
-   ![Battery Swap Strategy](./Diagrams/C2-bulk-battery-swap-and-reposition-for-event/event-discovery-sequence-diagram.drawio.png)
-   *Optimized battery swap and vehicle repositioning workflow*
+1. **System Manager Architecture** 🆕
+   ![System Overview](./Diagrams/system-manager/Overall.png)
+   *System Manager high-level architecture and components*
+
+   ![Management Analytics](./Diagrams/system-manager/Management%20Analytics.png)
+   *Analytics dashboard and management insights*
+
+   ![Route Explorer](./Diagrams/system-manager/Route%20Explorer.png)
+   *Route analysis and optimization system*
+
+   ![Dispatcher](./Diagrams/system-manager/Dispatcher.png)
+   *Task dispatching and resource management*
 
 2. **AI-Powered Inspection**
-   ![Vehicle Inspection](./Diagrams/vehicle-inspection-using-ai/vehicle-inspection-sequence.png)
-   *AI-driven vehicle inspection and verification process*
+   ![Vehicle Inspection Infrastructure](./Diagrams/vehicle-inspection-using-ai/infrastructure.png)
+   *AI-driven vehicle inspection system architecture*
+
+   ![Image Capture Flow](./Diagrams/vehicle-inspection-using-ai/1-image-capture.png)
+   *Image capture and initial processing*
+
+   ![Cloud Processing](./Diagrams/vehicle-inspection-using-ai/3-image-processing-in-cloud.png)
+   *AI-powered image analysis and verification*
 
 3. **Chat Bot Architecture**
-   ![Chat Bot System](./Diagrams/chat-bot/chatbot-container.png)
-   *Intelligent customer support system architecture*
+   ![Chat Bot Context](./Diagrams/chat-bot/context.png)
+   *High-level context view of the chatbot system*
+
+   ![Chat Bot Container](./Diagrams/chat-bot/container.png)
+   *Detailed container view of the intelligent support system*
+
+   ![Translator Flow](./Diagrams/chat-bot/translator_flow.png)
+   *Multi-language support and translation pipeline*
 
 ## Screens / UI
 
