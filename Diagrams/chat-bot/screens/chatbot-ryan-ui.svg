@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="366" height="820" viewBox="0 0 366 820">
+  <defs>
+    <style>
+      .header{fill:url(#g1)}
+      .title{font-family:Inter, Arial, sans-serif; font-weight:700; fill:#fff; font-size:16px}
+      .subtitle{font-family:Inter, Arial, sans-serif; fill:#fff; font-size:12px}
+      .card{fill:#fff; stroke:#eef2ff}
+      .meta{font-family:Inter, Arial, sans-serif; fill:#0b1220; font-size:14px}
+    </style>
+    <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b1a2b" />
+      <stop offset="100%" stop-color="#1168bd" />
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="366" height="820" fill="#fff" stroke="#e6e9ef"/>
+
+  <!-- chat card container -->
+  <g>
+    <!-- header -->
+    <rect x="0" y="0" width="366" height="88" class="header" />
+    <!-- avatar circle -->
+    <rect x="8" y="22" width="44" height="44" fill="#fff"/>
+    <circle cx="30" cy="44" r="18" fill="#ffdd57" />
+    <text x="24" y="50" font-family="Inter, Arial, sans-serif" font-size="18" fill="#3b2b00">🙂</text>
+    
+    <!-- title and subtitle -->
+    <text x="74" y="34" class="title">Ryan</text>
+    <text x="74" y="54" class="subtitle">Your mobility assistant</text>
+
+    <!-- greeting bubble -->
+    <g transform="translate(18,110)">
+  <rect width="330" height="44" class="card"/>
+  <text x="18" y="28" font-family="Inter, Arial, sans-serif" font-size="14" fill="#0b1220">👋 Hi! What do you want to do today?</text>
+    </g>
+
+    <!-- grid buttons -->
+    <g transform="translate(18,170)">
+      <!-- row 1 -->
+  <rect x="0" y="0" width="158" height="90" class="card"/>
+  <rect x="178" y="0" width="158" height="90" class="card"/>
+
+      <!-- row 2 -->
+  <rect x="0" y="110" width="158" height="90" class="card"/>
+  <rect x="178" y="110" width="158" height="90" class="card"/>
+
+      <!-- icons and labels -->
+  <text x="30" y="44" font-family="Inter, Arial, sans-serif" font-size="20">🗺️</text>
+  <text x="70" y="50" font-family="Inter, Arial, sans-serif" font-size="14" fill="#0b1220">Plan a trip</text>
+
+  <text x="208" y="44" font-family="Inter, Arial, sans-serif" font-size="20">🚗</text>
+  <text x="248" y="50" font-family="Inter, Arial, sans-serif" font-size="14" fill="#0b1220">Book a vehicle</text>
+
+  <text x="30" y="156" font-family="Inter, Arial, sans-serif" font-size="20">🅿️</text>
+  <text x="70" y="162" font-family="Inter, Arial, sans-serif" font-size="14" fill="#0b1220">Return a vehicle</text>
+
+  <text x="208" y="156" font-family="Inter, Arial, sans-serif" font-size="20">⚠️</text>
+  <text x="248" y="162" font-family="Inter, Arial, sans-serif" font-size="14" fill="#0b1220">Report an issue</text>
+    </g>
+
+    <!-- bottom input bar -->
+    <g transform="translate(18,700)">
+  <rect x="0" y="0" width="330" height="46" class="card"/>
+      <!-- microphone icon -->
+  <circle cx="24" cy="23" r="10" fill="#ffffff" stroke="#dfe6f2"/>
+  <text x="18" y="27" font-family="Inter, Arial, sans-serif" font-size="12">🎤</text>
+      <!-- paperclip -->
+  <rect x="48" y="12" width="14" height="14" fill="#ffffff" stroke="#dfe6f2"/>
+  <text x="50" y="23" font-family="Inter, Arial, sans-serif" font-size="12">📎</text>
+      <!-- input placeholder -->
+  <text x="78" y="29" font-family="Inter, Arial, sans-serif" font-size="13" fill="#94a0b4">Type your message...</text>
+      <!-- send button -->
+  <rect x="288" y="6" width="38" height="34" fill="#0b1a2b"/>
+      <polygon points="302,14 302,30 322,22" fill="#fff"/>
+    </g>
+
+  </g>
+</svg>
