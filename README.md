@@ -473,6 +473,7 @@ Our comprehensive V&V strategy includes:
 *Alerting screen for maintenance, battery, and operational issues.*
 
 ![Vehicle Detail](./Diagrams/vehicle-analytics/screens/vehicle-detail.png)
+
 *Detailed per-vehicle telemetry and diagnostics view.*
 
 ## Future Development Roadmap 🚧
